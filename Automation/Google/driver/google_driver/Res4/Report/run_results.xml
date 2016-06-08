@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ Lean Functional Testing - LeanFT ].Close</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Lean Functional Testing - LeanFT ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>3308ff096035463dbc625c8b95dfb855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Close</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>3308ff096035463dbc625c8b95dfb855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <StartTime>2016-06-06 21:03:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c702713f4b78492196ed73fb9eedcefe</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>p.Set</Name>
+    <Description>"TESTING"</Description>
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[p]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TESTING"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[p]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89a50d9d37a24f609c526c53fed5db35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Buscar en la Web.Click</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Buscar en la Web]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Buscar en la Web]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>00062eff5eea48b2a3c9dc48a2a15e8b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Yahoo ].Sync</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Yahoo ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Yahoo</Name>
+    <Description>Page</Description>
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>0387201d16cd467bb2cea6d6453da5bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Yahoo</Name>
+    <Description>Browser</Description>
+    <StartTime>2016-06-06 21:03:48</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Yahoo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>3308ff096035463dbc625c8b95dfb855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:18</StartTime>
+    <Duration>31</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6a2eecda9dfa473c98f673d148758786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:18</StartTime>
+    <Duration>31</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>dcc84aaffbad4452a70e0471dd898ecb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Esta clave ya estÃ¡ asociada con un elemento de esta colecciÃ³n</Name>
+    <ErrorText>Esta clave ya estÃ¡ asociada con un elemento de esta colecciÃ³n</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Automation\Google\libs\sub_driver.vbs&lt;BR/&gt;Line (12): &amp;quot;			testSuiteDic.Add DataTable.GetSheet(TEST_SUITE_SHEET).GetParameter(&amp;quot;TEST_NAME&amp;quot;).Value, DataTable.GetSheet(TEST_SUITE_SHEET).GetParameter(&amp;quot;MAP_TEST&amp;quot;).Value&amp;quot;.</Description>
+    <StartTime>2016-06-06 21:03:51</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Automation\Google\libs\sub_driver.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[initialize_framework]]></FunctionName>
+          <Scripts><![CDATA[testSuiteDic.Add DataTable.GetSheet(TEST_SUITE_SHEET).GetParameter("TEST_NAME").Value, DataTable.GetSheet(TEST_SUITE_SHEET).GetParameter("MAP_TEST").Value]]></Scripts>
+          <LineNo><![CDATA[12]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[initialize_framework()]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>a95244f9efb44ddf834666a349a4fce5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2016-06-06 21:04:00</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>a260c525d3824583875e754138146528</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:49</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6a2eecda9dfa473c98f673d148758786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-06-06 21:03:49</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>dcc84aaffbad4452a70e0471dd898ecb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>2</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>google_driver</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.53</ToolVersion>
+    <Description />
+    <StartTime>2016-06-06 21:03:16</StartTime>
+    <Duration>44</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>06a2db68bbcc4f6bbab70d0e110901a4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>EspaÃ±ol (MÃ©xico)</Locale>
+      <User>omar</User>
+      <CpuInfo>AMD Athlon(tm) II X2 240 Processor</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>4096</TotalMemory>
+      <HostName>ARTURO-PC</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2016-06-06 21:03:16</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.53</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Automation\\Google\\driver\\google_driver\\Res1',namePairs:[]}]};

@@ -1,0 +1,7 @@
+﻿<Properties>
+  <WatchEntry0 value="action" />
+  <WatchEntry1 value="objName" />
+  <WatchEntry2 value="param" />
+  <WatchEntry3 value="linkColl(0).getRoProperty(&quot;innertext&quot;)" />
+  <WatchEntry4 value="webObj" />
+</Properties>
